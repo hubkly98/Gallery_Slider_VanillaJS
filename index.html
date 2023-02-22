@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria Zdjęć</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="gallery.js"></script>
+  </head>
+  <body>
+    <div class="gallery_container">
+      <h2>Galeria</h2>
+      <p>Z miłością do mieszkań</p>
+
+      <ul class="gallery">
+        <li class="gallery_item">
+          <img src="./photos/qqq.jpg" alt="z1" />
+        </li>
+
+        <li class="gallery_item">
+          <img src="./photos/www.jpg" alt="z2" />
+        </li>
+
+        <li class="gallery_item">
+          <img src="./photos/eee.jpg" alt="z3" />
+        </li>
+
+        <li class="gallery_item">
+          <img src="./photos/rrr.jpg" alt="z4" />
+        </li>
+        <li class="gallery_item">
+          <img src="./photos/ttt.jpg" alt="z5" />
+        </li>
+        <li class="gallery_item">
+          <img src="./photos/yyy.jpg" alt="z6" />
+        </li>
+      </ul>
+
+      <!-- Tutaj wyświetlamy powiększone zdjęcia -->
+      <div class="popup hidden">
+        <button aria-label="Zamknij popup" class="popup_close">X</button>
+        <img src="" alt="" class="popup_img" />
+
+        <button
+          aria-label="Poprzednie zdjęcie"
+          class="popup_arrow popup_arrow--left"
+        >
+          <
+        </button>
+        <button
+          aria-label="Następne zdjęcie"
+          class="popup_arrow popup_arrow--right"
+        >
+          >
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
